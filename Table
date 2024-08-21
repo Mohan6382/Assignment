@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width">
+	
+        <title>student details</title>
+    </head>
+    <style>
+        table,th,td{
+            
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th{
+            background-color: antiquewhite;
+        }
+    </style>
+    <body>
+        <table style="width:50%" align="center">
+            <tr>
+                <th rowspan="2">Name</th>
+                <th rowspan="2">Roll No.</th>
+                <th colspan="4">Marks</th>
+                <tr>
+                    <th>S1</th>
+                    <th>S2</th>
+                    <th>S3</th>
+                    <th>S4</th>
+                </tr>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>1</td>
+                <td>55</td>
+                <td>65</td>
+                <td>72</td>
+                <td>73</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>2</td>
+                <td>75</td>
+                <td>62</td>
+                <td>85</td>
+                <td>91</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>3</td>
+                <td>91</td>
+                <td>65</td>
+                <td>72</td>
+                <td>83</td>
+            </tr>
+            <tr><td colspan="6" align="center">END OF MARK STATEMENT</td></tr>
+        </table>
+    </body>
+</html>
